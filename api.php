@@ -22,7 +22,6 @@ if ($passphrase == PASSPHRASE)
         $stars = $_POST['stars'];
         $feedback = $_POST['feedback'];
         $io->writeRating($stars, $feedback);
-        echo "SUCCESS";
     }
 } else {
     echo $io->readRatings();
