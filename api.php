@@ -1,5 +1,7 @@
 <?php
 
+header('Access-Control-Allow-Origin: *');
+
 require "./IO.php";
 
 use FP_RATING\IO;
